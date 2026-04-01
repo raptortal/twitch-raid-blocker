@@ -96,7 +96,7 @@ Chrome extension that automatically cancels raids on Twitch, preserving your com
 
 ## Requirements
 
-- **Browser:** Google Chrome version 147 (147.0.7727.49) and above
+- **Browser:** Google Chrome version 147+
 
 
 ## 📄 License
