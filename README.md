@@ -41,9 +41,65 @@ Chrome-расширение, которое автоматически отме�
 - `content.js` — ядро логики: поиск кнопок рейда, обработка языков, авто-клик.
 - `popup.html` / `popup.js` — визуальный интерфейс управления и статистики.
 
+## Требования
+
+- **Браузер:** Google Chrome версии 147 +
+
+
+
 ## 📄 Лицензия
 
 MIT
 ___________________
 
 **EN EN EN**
+
+Chrome extension that automatically cancels raids on Twitch, preserving your comfort and control over viewing.
+
+## Typical Scenario
+
+> **Situation:** You fell asleep under your favorite stream.  
+> **What happens:** The streamer ends the broadcast and launches a raid on a random channel.  
+> **Without the extension:** You wake up to loud music or someone else's speech on an unfamiliar channel.  
+> **With «Котикс Блочит»:** The extension detects the raid window (in Russian or English) and instantly clicks **«Cancel»**. You stay on the stream end page in silence.
+
+## Features
+
+- 🤖 **Full Automation:** Independently finds and closes raid windows.
+- 🌍 **Bilingual Support:** Understands Twitch interface in **Russian** and **English**.
+- ⚙️ **Control:** Enable/disable protection with one click via popup.
+- 📊 **Statistics:** Counts the number of raids saved from you (persisted even after browser restart).
+- 🔒 **Security:** Uses Manifest V3, minimal permissions (only `storage`), does not collect personal data.
+
+## How It Looks
+
+| Extension Settings | Action in Progress |
+|:---:|:---:|
+| ![Popup Interface](screenshots/popup.png) | ![Raid Blocked](screenshots/Enabled.png) ![Raid Blocked](screenshots/blocked.png) |
+| *Main menu with statistics* | *Automatic raid cancellation* |
+
+## Installation (from source)
+
+1. Download or clone this repository.
+2. Open Google Chrome browser and go to `chrome://extensions/`.
+3. Enable **«Developer mode»** in the top right corner.
+4. Click **«Load unpacked»**.
+5. Select the folder with the extension files (`manifest.json` must be inside).
+6. Done! The icon will appear in the extensions panel.
+
+## Project Structure
+
+- `manifest.json` — extension configuration (Manifest V3).
+- `background.js` — storage and settings initialization.
+- `content.js` — core logic: raid button detection, language handling, auto-click.
+- `popup.html` / `popup.js` — visual control interface and statistics.
+
+## Requirements
+
+- **Browser:** Google Chrome version 147 (147.0.7727.49) and above
+
+
+## 📄 License
+
+MIT
+
