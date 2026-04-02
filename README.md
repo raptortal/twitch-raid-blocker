@@ -1,4 +1,6 @@
-# 🐱 Котикс Блочит — Twitch Raid Blocker
+#  Котикс Блочит — Twitch Raid Blocker
+![CAT](icons/icon-64.jpg) 
+
 **RU RU RU**
 
 Chrome-расширение, которое автоматически отменяет рейды на Twitch, сохраняя ваш комфорт и контроль над просмотром.
